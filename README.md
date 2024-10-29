@@ -1,12 +1,8 @@
 # Health-Insurance-Prediction
 
 ## Overview
-This project aims to predict health insurance premiums based on various personal and health-related attributes using machine learning. The project includes data preprocessing, exploratory data analysis, model training, and evaluation, ultimately selecting the best model for accurate premium predictions.
-
-## Description
-
 In the final week of my Python for Machine Learning Bootcamp, hosted by GlobalAI Hub, I was tasked to predict a person's health insurance charge based on certain factors.
-
+This project aims to predict health insurance premiums based on various personal and health-related attributes using machine learning. The project includes data preprocessing, exploratory data analysis, model training, and evaluation, ultimately selecting the best model for accurate premium predictions.
 
 
 ## Project Structure
@@ -42,6 +38,7 @@ git clone https://github.com/Fayyo/health-insurance-prediction.git
 2. Install dependencies: Ensure Python is installed, then install the required libraries
 3. Run the Jupyter Notebook: Launch the notebook to view and execute the code: jupyter notebook Global_AI_Hub_Project.ipynb
 
+
 ## Dependencies
 The primary libraries used in this project are:
 
@@ -54,6 +51,7 @@ The primary libraries used in this project are:
 ## Exploratory Data Analysis (EDA)
 The EDA phase explores relationships between attributes, with visualizations showing how factors like age, BMI, and smoking status impact insurance charges. This analysis informed feature selection and preprocessing steps to improve model accuracy.
 
+
 ## Model Training and Evaluation
 Multiple machine learning models were trained and evaluated, including:
 
@@ -63,12 +61,14 @@ Multiple machine learning models were trained and evaluated, including:
 - Decision Tree Regressor
 The models were evaluated on metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared (R²). The best-performing model was chosen based on its predictive accuracy and stability.
 
+
 ## Results
 The Decision Tree Regressor achieved the best results with the following metrics:
-Accuracy Score: 0.86
-Mean Absolute Error (MAE): 2969
-Root Mean Squared Error (RMSE): 4673
-These results highlight the model's effectiveness in predicting health insurance.
+- Accuracy Score: 0.86
+- Mean Absolute Error (MAE): 2969
+- Root Mean Squared Error (RMSE): 4673
+- These results highlight the model's effectiveness in predicting health insurance.
 
-Conclusion
+
+## Conclusion
 This project successfully demonstrates how machine learning can be used to predict health insurance premiums. Factors such as age, BMI, smoking status, and region significantly insurance prices, and this model can assist insurance providers in setting fair and personalized pricing.
